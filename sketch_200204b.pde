@@ -34,3 +34,9 @@ void setup() {
     }
   }
 }
+void draw(){
+  background(255);
+  
+  world.step();
+  world.draw();
+}
